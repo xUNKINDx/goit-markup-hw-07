@@ -14,15 +14,15 @@
     color: var(--title-text-color);
 }
 
-.employees__list {
+.user {
     display: flex;
 }
 
-.employees__list .user + .user {
+.user__list + .user__list {
     margin-left: 30px;
 }
 
-.employees__list .user {
+.user__list {
     max-width: 270px;
     text-align: center;
 
@@ -42,7 +42,7 @@
     margin-bottom: 30px;
 }
 
-.employees__list .social__item + .social__item {
+.user .social__item + .social__item {
     margin-left: 10px;
 }
 
