@@ -1,0 +1,176 @@
+
+.footer {
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container__footer {
+    display: flex;
+}
+
+.logo__first {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--accent-color);
+}
+
+.logo__footer {
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-wight-color);
+}
+
+.contacts__list {
+    display: block;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    letter-spacing: 0.03em;
+}
+
+.contacts__list .list + .list {
+    margin-top: 9px;
+}
+
+.contacts .link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: var(--primary-wight-color);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+.gmail__call,
+.tel__call {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+
+    color: rgba(255, 255, 255, 0.6);
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts .gmail__call:hover,
+.contacts .gmail__call:focus {
+    color: var(--accent-color);
+}
+
+.contacts .tel__call:hover,
+.contacts .tel__call:focus {
+    color: var(--accent-color);
+}
+
+.connect__block {
+    width: 206px;
+    height: 80px;
+    margin-left: 70px;
+}
+
+.connect__title {
+    margin-top: 11px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.connect {
+    display: flex;
+    align-items: center;
+}
+
+.connect__item + .connect__item {
+    margin-left: 10px;
+}
+
+.connect__link {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.connect__svg {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.connect__link:hover,
+.connect__link:focus {
+    background-color: #2196F3;
+}
+
+.footer__subscribe {
+    margin-left: auto;
+}
+
+.subscribe__svg {
+    margin-left: 10px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+}
+
+.subscribe__input {
+    margin: 0;
+    color: #fff;
+}
+
+.subscribe__button {
+    margin-left: 12px;
+}
+
+.subscribe__input {
+    position: relative;
+    padding: 11px 15px 11px 32px;
+    font:inherit;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    width: 358px;
+    height: 50px;
+    background: none;
+}
+
+.subscribe__input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}

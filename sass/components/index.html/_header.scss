@@ -1,0 +1,30 @@
+
+
+.main__header {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    background: var(--primary-wight-color);
+    border-bottom: 1px solid #ECECEC;
+    font-weight: 500;
+}
+
+.icon__gmail {
+    width: 16px;
+    height: 12px;
+}
+
+.icon__vector {
+    width: 10px;
+    height: 16px;
+}
+
+.icon__gmail,
+.icon__vector {
+    display: inline-flex;
+    align-self: center;
+    margin-right: 10px;
+    fill: currentColor;
+}
