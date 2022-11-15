@@ -1,0 +1,38 @@
+.social {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    
+    margin-top: 16px;
+    margin-bottom: 30px;
+    
+    &__item + &__item {
+        margin-left: 10px;
+    }
+
+    &__logo {
+        fill: currentColor;
+        display: block;
+        width: 44px;
+        height: 44px;
+        padding: 12px;
+    }
+
+    &__link {
+        display: block;
+        border-radius: 50%;
+        background-color: #ffffff;
+        color: #AFB1B8;
+    
+        transition-property: color, background-color;
+        transition-duration: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover,
+        &:focus {
+            background-color: #2196F3;
+            border-radius: 50%;
+            color: #ffffff;
+        }
+    }
+}
