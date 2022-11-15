@@ -31,11 +31,11 @@
         &:focus {
         color: var(--accent-color);
         }
-        &.current {
+        &--current {
             position: relative;
             color: var(--accent-color);
         }
-        &.current::after {
+        &--current::after {
             position: absolute;
             bottom: -1px;
             left: 0;

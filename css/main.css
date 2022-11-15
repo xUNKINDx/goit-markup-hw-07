@@ -131,11 +131,11 @@ a:link {
 .nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
 }
-.nav__link.current {
+.nav__link--current {
   position: relative;
   color: var(--accent-color);
 }
-.nav__link.current::after {
+.nav__link--current::after {
   position: absolute;
   bottom: -1px;
   left: 0;
