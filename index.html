@@ -16,7 +16,7 @@
     <header class="header">
         <div class="container header__main">
             <nav class="nav">
-                <a href="./index.html" class="logo"><span class="logo__first">Web</span>Studio</a>
+                <a href="./index.html" class="logo"><span>Web</span>Studio</a>
                 <ul class="nav__site">
                     <li class="nav__item"><a href="./index.html" class="nav__link current">Студія</a></li>
                     <li class="nav__item"><a href="./portfolio.html" class="nav__link">Портфоліо</a></li>
@@ -45,7 +45,7 @@
         <section class="hero section">
             <div class="container">
                 <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="hero__button" data-modal-open>Замовити послугу</button>
+                <button type="button" class="btn" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         <section class="section">
@@ -298,7 +298,7 @@
     <footer class="footer">
         <div class="container footer__container">
             <div>
-                <a href="./index.html" class="logo footer__logo"><span class="logo__first">Web</span>Studio</a>
+                <a href="./index.html" class="logo footer__logo"><span>Web</span>Studio</a>
                 <address>
                     <ul class="contacts">
                         <li class="contacts__list">
@@ -314,32 +314,32 @@
                 </address>
             </div>
             <div class="connect-block">
-                <h2 class="connect-block__title">приєднуйтесь</h2>
-                <ul class="connect">
-                    <li class="connect__item">
-                        <a href="https://www.instagram.com/" class="connect__link">
-                            <svg class="connect__svg">
+                <h2 class="footer-title">приєднуйтесь</h2>
+                <ul class="social">
+                    <li class="social__item">
+                        <a href="https://www.instagram.com/" class="social__link connect">
+                            <svg class="social__logo">
                                 <use href="./images/icons.svg#instagram-1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="connect__item">
-                        <a href="https://www.twitter.com/" class="connect__link">
-                            <svg class="connect__svg">
+                    <li class="social__item">
+                        <a href="https://www.twitter.com/" class="social__link connect">
+                            <svg class="social__logo">
                                 <use href="./images/icons.svg#twitter"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="connect__item">
-                        <a href="https://www.facebook.com/" class="connect__link">
-                            <svg class="connect__svg">
+                    <li class="social__item">
+                        <a href="https://www.facebook.com/" class="social__link connect">
+                            <svg class="social__logo">
                                 <use href="./images/icons.svg#facebook"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="connect__item">
-                        <a href="https://www.linkedin.com/" class="connect__link">
-                            <svg class="connect__svg">
+                    <li class="social__item">
+                        <a href="https://www.linkedin.com/" class="social__link connect">
+                            <svg class="social__logo">
                                 <use href="./images/icons.svg#linkedin"></use>
                             </svg>
                         </a>
@@ -347,12 +347,12 @@
                 </ul>
             </div>
             <div class="footer-subscribe">
-                <h2 class="connect-block__title">Підпишіться на розсилку</h2>
+                <h2 class="footer-title">Підпишіться на розсилку</h2>
                 <form class="subscribe">
                     <label>
                         <input type="email" name="email" class="subscribe__input" placeholder="E-mail">
                     </label>
-                    <button class="button send subscribe__button">Підписатися
+                    <button class="button btn subscribe__button">Підписатися
                         <svg class="subscribe__svg" width="24" height="24">
                             <use href="./images/icons.svg#send"></use>
                         </svg>
@@ -388,12 +388,12 @@
                         <textarea name="comment" id="comment" rows="7" class="modal__comment" placeholder="Введіть текст"></textarea>
                     </label>
                     <label for="policy" class="check">
-                        <input type="checkbox" name="policy" id="policy" class="checkbox">
+                        <input type="checkbox" name="policy" id="policy" class="check__input">
                         <span class="check__box"></span>
-                        Погоджуюся з розсилкою та приймаю <a href="" class="policy__check">Умови договору</a>
+                        Погоджуюся з розсилкою та приймаю <a href="" class="check__policy">Умови договору</a>
                     </label>
                 </div>
-                <button type="submit" class="send send__modal">Відправити</button>
+                <button type="submit" class="send btn send__modal">Відправити</button>
             </form>
             <button class="button modal__button" data-modal-close>
                 <svg width="18" height="18">

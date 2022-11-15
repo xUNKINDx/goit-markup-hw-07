@@ -17,7 +17,7 @@
     margin: 0 auto;
 
     &__title {
-        width: 696px;
+        max-width: 696px;
         margin-right: auto;
         margin-bottom: 30px;
         margin-left: auto;
@@ -31,26 +31,4 @@
     
         color: var(--primary-wight-color);
     }
-}
-
-
-
-.hero__button, .send {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 32px;
-    letter-spacing: 0.06em;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-
-    align-items: center;
-    text-align: center;
-
-    color: var(--primary-wight-color);
-    background-color: var(--accent-color);
 }
