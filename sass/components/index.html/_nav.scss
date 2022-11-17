@@ -2,6 +2,9 @@
     display: flex;
     align-items: center;
     &__site {
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
         display: flex;
         margin-left: 93px;
         padding-left: 0;
@@ -51,6 +54,13 @@
 
 
 .auth-nav {
+    @media screen and (max-width: 1199px) {
+        display: block;
+        &_item {
+            margin: 0;
+        } 
+    }
+
     display: flex;
     margin-left: auto;
     padding-left: 0;
